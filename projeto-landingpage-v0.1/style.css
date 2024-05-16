@@ -1,0 +1,77 @@
+* {
+    font-family: montserrat;
+}
+html,body{
+    width: 100%;
+    background-color: rgb(230,230,230);
+    height: 200%;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form fieldset{
+    margin-top: 15px;
+    padding: 20px 40px;
+    border: 3px solid rgb(130,130,130);
+    border-radius:10px;
+    background-color: rgb(15,15,15);
+}
+form h1{
+    color: #ffbb00;
+    font-size: 40px;
+}
+form input[type=text]{
+    display: inline-block;
+    margin: 15px;
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+}
+form select{
+    transform: scale(1.25);
+    text-align: left;
+    margin: 1px 15px 15px 15px;
+}
+.select {
+    text-align: center;
+    display: inline-block;
+}
+.select h3{
+    color: white;
+}
+h2{
+    color:#ffbb00;
+    font-size:35px;
+}
+.tipo-imovel{
+    margin-top: 15px;
+}
+form div p a{
+    color: #ffbb00;
+    text-decoration: none;
+}
+.cadastro-imov-check{
+    color: white;
+}
+form input[type=checkbox]{
+    transform: scale(1.5);
+    margin: 15px;
+}
+.cadastro-imov-check > .venda, .cadastro-imov-check > .aluguel{
+    margin-right: 10px;
+}
+.cadastro-imov-check > .aluguel{
+    margin-left: 125px;
+}
+.cadastro-imov-info{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
